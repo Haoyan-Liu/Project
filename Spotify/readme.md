@@ -1,3 +1,14 @@
+## MiniSpotify
+
+- Designed a Kotlin-based Spotify app using Jetpack Compose, following MVVM architecture
+- Integrated Jetpack Navigation Component to implement bottom navigation and screen routing
+- Built Home, Album, and Favorite UI screens with Compose and modular Fragment containers
+- Created a mock RESTful API using json-server, and consumed it via Retrofit
+- Implemented local caching for favorite albums using Room Database + Flow
+- Applied Hilt Dependency Injection for managing ViewModel, Repository, and data sources
+- Integrated Google ExoPlayer with a global PlayerViewModel to handle audio playback across screens
+- Enabled real-time UI updates with StateFlow and Flow, fully reactive with Compose
+
 ![image](https://github.com/user-attachments/assets/e7828f06-987d-4549-87f9-2502aad5c449)
 
 ## 🧠 一、精炼速查版（结构总览）
