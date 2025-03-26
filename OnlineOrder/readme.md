@@ -1,7 +1,13 @@
 ## 🍽 OnlineOrder - Full Stack Food Ordering System
 
-### ✅ 项目概述
-Built a full-stack online food ordering application with secure authentication, restaurant browsing, shopping cart management, and seamless ordering experience.
+### OnlineOrder: A Spring Boot based online food ordering system
+
+- Developed RESTful APIs using Spring Boot to support registration, menu retrieval, cart operations, and order checkout.
+- Utilized Spring Data JDBC with PostgreSQL for database access, deployed on AWS RDS.
+- Implemented session-based authentication using Spring Security, including encrypted credential storage.
+- Structured the backend into layered architecture (Controller → Service → Repository) for modularity and testability.
+- Built a responsive frontend using ReactJS and Ant Design, enabling real-time cart updates and user interactions.
+- Deployed the backend using Docker on AWS App Runner, enabling horizontal scalability and cloud CI/CD.
 
 ---
 
